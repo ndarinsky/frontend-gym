@@ -21,11 +21,6 @@ greaterThen(n) must capture n and remember it when checking a value.
 3) API thinking
 Can you build something that reads nicely (expect(x).toBe(...)) instead of dumping logic into one function?
 
-# Project files
-1) Read task.md
-2) If you can't solve it check hints.md
-3) or jump right to the solution.js for solution + tests
-
 # Possible followups
 1) Implement not
 ```js
@@ -33,3 +28,11 @@ expect(add(1, 2)).not.toBe(greaterThen(1));
 ```
 2) make deepEqual which will compare objects
 
+# Project files
+1) Read task.md
+2) If you can't solve it check hints.md
+3) or jump right to the solution.js for solution + tests
+
+# how to run
+Open terminal in file with solution.js
+run in the terminal: node solution.js
